@@ -1,0 +1,115 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.manu{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    
+}
+
+nav ul li{
+    display:flex;
+    gap:20px;
+    
+}
+
+nav ul li a{
+   text-decoration: none;
+    
+}
+
+/* Banner Styles */
+
+.banner{
+
+}
+
+
+/* Popular Collections */
+
+.courses{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:24px;
+    
+}
+.course{
+    border-radius: 5px;
+    box-shadow: 5px 4px 7px lightgrey;
+   
+}
+.course .course-banner img{
+     height:104px;
+     width:224px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color:#FFC014;
+}
+
+.fa-star.empty{
+    color:#AEAEAE;
+}
+
+
+
+/* Socials */
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+  }
+  .socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 15px;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+  }
+  .socials a i {
+    font-size: 20px;
+  }
+  
+  .fb {
+    color: #006aff;
+  }
+  .fb:hover {
+    border-color: #006aff;
+  }
+  .tw {
+    color: #1da1f2;
+  }
+  .tw:hover {
+    border-color: #1da1f2;
+  }
+  .yp {
+    color: #ff0000;
+  }
+  .yp:hover {
+    border-color: #ff0000;
+  }
+  
+  
