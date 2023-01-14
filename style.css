@@ -79,10 +79,7 @@ nav ul li a{
 
 .banner-details{
     width: 582px;
-    height: 270px;
-
-   
-   
+    
 }
 
 .banner-details h1{
@@ -310,3 +307,110 @@ nav ul li a{
   }
  
   
+  /* Responsive */
+
+ /* Mobile Devices */
+
+  @media screen and (max-width:688px) {
+    nav ul{
+        flex-direction: column;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        padding:20px;
+    }
+    .banner-image{
+        width:100%;
+        height:400px;
+    }
+
+    .banner-details{
+        width:100%;
+        margin-top: 5px;
+        padding:5px;
+        text-align: center;
+
+    }
+    .banner-details h1{
+        font-size: 42px;
+        text-align: center;
+        
+    }
+    
+    .banner-details p{
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+
+    .banner-details button{
+        text-align: center;
+    }
+
+    .business-logo{
+        width:100%;
+        height: 10vh;
+        grid-template-columns: repeat(4,1fr);
+   
+        /* grid-template-areas: 
+        "auto auto auto auto"
+        "auto auto auto"; */
+        place-items: center;
+        grid-column-gap: 20px;
+
+    }
+    .business-logo img{
+        width:80%;
+    }
+    .container{
+        width:90%;
+        overflow: hidden;
+        
+    }
+    .section-title{
+       
+    }
+    .collections{
+       
+        grid-template-columns: 1fr;
+
+    }
+    .collection{
+        width: 100%;
+        padding:0;
+    }
+    .collection .collection-banner{
+       
+    }
+    .collection .collection-banner img{
+      
+    }
+    .feature{
+        width:100%;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 10px;
+        overflow: hidden;
+    }
+    .feature-details{
+        width: 100%;
+        padding: 20px;
+    }
+    .feature-img{
+        width:80%;
+        overflow: hidden;
+
+    }
+    .footer{
+        width:100%;
+        text-align: center;
+        padding: 5px;
+    }
+  }
+
+  /* Tablet Devices */
+
+@media screen and (min-width:688px) and (max-width:992px) {
+
+}
